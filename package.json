@@ -4,6 +4,7 @@
   "description": "slide-comments-websocket-server",
   "main": "app/app.ts",
   "scripts": {
+    "start": "node dest/app.js",
     "dev": "nodemon"
   },
   "keywords": [],
