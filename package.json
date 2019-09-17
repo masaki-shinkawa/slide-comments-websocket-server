@@ -1,0 +1,23 @@
+{
+  "name": "slide-comments-websocket-server",
+  "version": "1.0.0",
+  "description": "slide-comments-websocket-server",
+  "main": "app/app.ts",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@types/socket.io": "^2.1.2",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
